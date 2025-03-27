@@ -1,0 +1,234 @@
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ * 
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+#fwrapper {
+	min-height:100%;
+	position:relative;
+}
+#footer {
+	background:black;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:auto;
+	left:0;
+        top:auto;
+}
+#foomenu{
+   margin-left: -8%;
+    margin-top: 1%;
+}
+#foomenu ul li{
+    display: inline;
+    color: #0f71ba;
+}
+#foomenu ul li a{
+     color: #0f71ba;
+     font-family: sans-serif;
+     font-size: 15px;
+     padding-left: 25px;
+}
+#foomenu ul li a:hover{
+    color: white;
+}
+#copy{
+       margin-left: 26%;
+    width: 50%;  
+}
+#copy p{
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+#copy a{
+    color: blue;
+    text-decoration: underline;
+}
+#clrr{
+    clear: both;
+}
+#homemain{
+    min-height: 400px;height: auto;
+    border: 2px solid red;
+}
+#markq{
+    float: right;
+    background-image: url("../images/ban.png");
+    width: 251px;
+    height: 134px;
+    position: relative;
+    margin-top: -524px;
+    margin-right: 18px;
+}
+#h{
+       padding-top: 65px;
+    font-family: cursive;
+    color: white;
+}
+#p{
+    background-image: url("../images/black.jpg");
+    position: relative;
+        width: 57%;
+    height: 289%;
+    margin-left: -2%;
+    margin-right: 0%;
+    margin-top: 8%;
+    color: white;
+}
+#text{
+    margin-top: 20px;
+    float:left;
+}
+#text1{
+            margin-top: 20px;
+   
+    margin-left: 238px;
+}
+#text2{
+         padding-left: 238px;
+    /* float: right; */
+    margin-top: 33px;
+}
+#foot{
+   background: black;
+    width: 100%;
+    height: 21%;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    top:auto;
+}
+
+#profile{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 532px;
+    margin-top: 56px;
+}
+#change{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 532px;
+    margin-top: 56px; 
+}
+#up{
+    float:right;
+     
+}
+#up1{
+    float: right;
+  
+}
+#up img{
+       border-radius: 17%;
+    /* margin-top: -12px; */
+    /* border-radius: 35%; */
+    margin-top: -15px;
+    margin-bottom: -7px;
+    height: 45px;
+    width: 69px;
+    margin-right: auto;
+}
+#icon img{
+    display: inline;
+    padding-left: 18px;
+}
+#foo{
+   margin-left: 29%;
+    margin-top: 1%;
+}
+#foo ul li{
+    display: inline;
+    color: #0f71ba;
+}
+#foo ul li a{
+     color: #0f71ba;
+     font-family: sans-serif;
+     font-size: 15px;
+     padding-left: 25px;
+}
+#foo ul li a:hover{
+    color: white;
+}
+#cop{
+       margin-left: 24%;
+    width: 48%;
+    margin-top: 1%;  
+}
+#cop p{
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+#cop a{
+    color: blue;
+    text-decoration: underline;
+}
+.t{
+    /*background-image: url("../image/01.jpg");*/
+        color: black;
+        width: 120%;
+    font-size: 22px;
+    font-style: italic;
+    font-family: cursive;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
